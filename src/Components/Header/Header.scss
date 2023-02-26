@@ -1,0 +1,90 @@
+@import "../../sass/variable";
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+  @media (max-width: 1024px) {
+    height: 69vh;
+  }
+  @media (max-width: 600px) {
+    padding-top: 3rem;
+    height: 100vh;
+  }
+  .container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    .cta {
+      margin-top: 2.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+    }
+    .header__social {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      bottom: 3rem;
+      left: 0;
+      gap: 0.8rem;
+      &::after {
+        content: "";
+        width: 1px;
+        height: 2rem;
+        background-color: $color-primary;
+      }
+      @media (max-width: 600px) {
+        display: none;
+      }
+    }
+    .me {
+      background: linear-gradient($color-primary, transparent);
+      width: 22rem;
+      height: 30rem;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-11rem);
+      -webkit-transform: translateX(-11rem);
+      -moz-transform: translateX(-11rem);
+      -ms-transform: translateX(-11rem);
+      -o-transform: translateX(-11rem);
+      margin-top: 4rem;
+      border-radius: 12rem 12rem 0 0;
+      -webkit-border-radius: 12rem 12rem 0 0;
+      -moz-border-radius: 12rem 12rem 0 0;
+      -ms-border-radius: 12rem 12rem 0 0;
+      -o-border-radius: 12rem 12rem 0 0;
+      overflow: hidden;
+      padding: 5rem 1.5rem 1.5rem 1.5rem;
+      @media (max-width: 600px) {
+        width: 15rem;
+        height: 23rem;
+        transform: translateX(-7.5rem);
+        -webkit-transform:translateX(-7.5rem);
+        -moz-transform:translateX(-7.5rem);
+        -ms-transform:translateX(-7.5rem);
+        -o-transform:translateX(-7.5rem);
+        margin-top: 2rem;
+}
+      img {
+        width: 100% !important;
+      }
+    }
+    .scroll {
+      position: absolute;
+      right: -2.3rem;
+      bottom: 5rem;
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      font-weight: 300;
+      font-size: 0.9rem;
+      @media (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
+}

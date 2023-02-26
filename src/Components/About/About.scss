@@ -1,0 +1,87 @@
+@import "../../sass/variable";
+#about {
+  .container {
+    .about__me {
+      width: 100%;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+      aspect-ratio: 1/1;
+      background: linear-gradient(
+        45deg,
+        transparent,
+        $color-primary,
+        transparent
+      );
+      .about__me-img {
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        &:hover {
+          transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+        }
+      }
+    }
+    .about__content {
+      .about__cards {
+        .about__card {
+          background-color: $color-bg-variant;
+          border: 1px solid transparent;
+          border-radius: 1rem;
+          -webkit-border-radius: 1rem;
+          -moz-border-radius: 1rem;
+          -ms-border-radius: 1rem;
+          -o-border-radius: 1rem;
+          padding: 2rem;
+          text-align: center;
+          transition: 0.3s;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -ms-transition: 0.3s;
+          -o-transition: 0.3s;
+          margin: 1rem 0;
+          &:hover {
+            background-color: transparent;
+            border-color: $color-primary-variant;
+            cursor: default;
+          }
+          .about_icon{
+            font-size: 1.4rem;
+            color: $color-primary;
+            margin-bottom: 1rem;
+          }
+          h5{
+            font-size: .95rem;
+          }
+          small{
+            font-size: .7rem;
+            color: $color-light;
+          }
+        }
+        p{
+          margin: 2rem 0 2.6rem;
+          color: $color-light;
+        }
+      }
+    }
+  }
+}

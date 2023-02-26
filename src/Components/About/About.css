@@ -1,0 +1,73 @@
+#about .container .about__me {
+  width: 100%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  aspect-ratio: 1/1;
+  background: linear-gradient(45deg, transparent, #4db5ff, transparent);
+}
+#about .container .about__me .about__me-img {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+#about .container .about__me .about__me-img:hover {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+#about .container .about__content .about__cards .about__card {
+  background-color: #2c2c6c;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  margin: 1rem 0;
+}
+#about .container .about__content .about__cards .about__card:hover {
+  background-color: transparent;
+  border-color: rgba(77, 181, 255, 0.4);
+  cursor: default;
+}
+#about .container .about__content .about__cards .about__card .about_icon {
+  font-size: 1.4rem;
+  color: #4db5ff;
+  margin-bottom: 1rem;
+}
+#about .container .about__content .about__cards .about__card h5 {
+  font-size: 0.95rem;
+}
+#about .container .about__content .about__cards .about__card small {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+#about .container .about__content .about__cards p {
+  margin: 2rem 0 2.6rem;
+  color: rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=About.css.map */

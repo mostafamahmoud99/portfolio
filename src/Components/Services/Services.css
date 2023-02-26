@@ -1,0 +1,50 @@
+.services {
+  background-color: #2c2c6c;
+  border-radius: 0 0 2rem 2rem;
+  -webkit-border-radius: 0 0 2rem 2rem;
+  -moz-border-radius: 0 0 2rem 2rem;
+  -ms-border-radius: 0 0 2rem 2rem;
+  -o-border-radius: 0 0 2rem 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid #4db5ff;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.services:hover {
+  background-color: transparent;
+  border-color: #2c2c6c;
+  cursor: default;
+}
+.services .service__head {
+  background-color: #4db5ff;
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  -webkit-border-radius: 0 0 2rem 2rem;
+  -moz-border-radius: 0 0 2rem 2rem;
+  -ms-border-radius: 0 0 2rem 2rem;
+  -o-border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.3);
+}
+.services .service__head h3 {
+  color: #1f1f38;
+  font-size: 1rem;
+  text-align: center;
+}
+.services .service__list {
+  padding: 2rem;
+}
+.services .service__list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+.services .service__list li .service__list-icon {
+  color: #4db5ff;
+  margin-top: 2px;
+  font-size: 1rem;
+}/*# sourceMappingURL=Services.css.map */

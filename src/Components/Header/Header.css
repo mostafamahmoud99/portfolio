@@ -1,0 +1,99 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+@media (max-width: 1024px) {
+  header {
+    height: 69vh;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    padding-top: 3rem;
+    height: 100vh;
+  }
+}
+header .container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+header .container .cta {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+header .container .header__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+  gap: 0.8rem;
+}
+header .container .header__social::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: #4db5ff;
+}
+@media (max-width: 600px) {
+  header .container .header__social {
+    display: none;
+  }
+}
+header .container .me {
+  background: linear-gradient(#4db5ff, transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-11rem);
+  -webkit-transform: translateX(-11rem);
+  -moz-transform: translateX(-11rem);
+  -ms-transform: translateX(-11rem);
+  -o-transform: translateX(-11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  -webkit-border-radius: 12rem 12rem 0 0;
+  -moz-border-radius: 12rem 12rem 0 0;
+  -ms-border-radius: 12rem 12rem 0 0;
+  -o-border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+@media (max-width: 600px) {
+  header .container .me {
+    width: 15rem;
+    height: 23rem;
+    transform: translateX(-7.5rem);
+    -webkit-transform: translateX(-7.5rem);
+    -moz-transform: translateX(-7.5rem);
+    -ms-transform: translateX(-7.5rem);
+    -o-transform: translateX(-7.5rem);
+    margin-top: 2rem;
+  }
+}
+header .container .me img {
+  width: 100% !important;
+}
+header .container .scroll {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+@media (max-width: 600px) {
+  header .container .scroll {
+    display: none;
+  }
+}/*# sourceMappingURL=Header.css.map */

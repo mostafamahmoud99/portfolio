@@ -1,0 +1,56 @@
+@import "../../sass/variable";
+footer {
+  background-color: $color-primary;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+  .footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  .permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+  }
+  .footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    a {
+      background-color: $color-bg;
+      color: $color-white;
+      padding: 0.8rem;
+      border-radius: 0.7rem;
+      -webkit-border-radius: 0.7rem;
+      -moz-border-radius: 0.7rem;
+      -ms-border-radius: 0.7rem;
+      -o-border-radius: 0.7rem;
+      display: flex;
+      border: 1px solid transparent;
+      transition: $transition;
+      -webkit-transition: $transition;
+      -moz-transition: $transition;
+      -ms-transition: $transition;
+      -o-transition: $transition;
+      &:hover {
+        background-color: transparent;
+        border-color: $color-bg;
+        color: $color-bg;
+      }
+    }
+  }
+  .footer__copyright{
+    margin-bottom: 4rem;
+    color: $color-bg;
+  }
+  a {
+    color: $color-bg;
+  }
+}

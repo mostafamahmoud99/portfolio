@@ -1,0 +1,54 @@
+@import "../../sass/variable";
+
+#contact {
+  .container {
+    .contact__options {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin-bottom: .5rem;
+      .contact__option {
+        background-color: $color-bg-variant;
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+        -webkit-border-radius: 1.2rem;
+        -moz-border-radius: 1.2rem;
+        -ms-border-radius: 1.2rem;
+        -o-border-radius: 1.2rem;
+        text-align: center;
+        border: 1px solid transparent;
+        transition: $transition;
+        -webkit-transition: $transition;
+        -moz-transition: $transition;
+        -ms-transition: $transition;
+        -o-transition: $transition;
+        &:hover {
+          background-color: transparent;
+          border-color: $color-primary-variant;
+        }
+        .contact__option-icon {
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem;
+        }
+        a {
+          margin-top: 0.7rem;
+          display: inline-block;
+          font-size: 0.8rem;
+        }
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin-top: 0.5rem;
+      input,
+      textarea {
+        background-color: transparent;
+        border: 2px solid $color-primary-variant;
+        resize: none;
+        color: $color-white;
+      }
+    }
+  }
+}

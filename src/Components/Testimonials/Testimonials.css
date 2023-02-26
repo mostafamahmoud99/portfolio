@@ -1,0 +1,51 @@
+#testimonial .container {
+  width: 40%;
+  padding-bottom: 4rem;
+}
+@media (max-width: 768px) {
+  #testimonial .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+#testimonial .container .testimonial {
+  background-color: #2c2c6c;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#testimonial .container .testimonial .client__avatar {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 0.4rem solid rgba(77, 181, 255, 0.4);
+}
+#testimonial .container .client__review {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+@media (max-width: 768px) {
+  #testimonial .container .client__review {
+    width: 100%;
+  }
+}
+#testimonial .container .swiper-pagination-clickable .swiper-pagination-bullets {
+  background-color: #4db5ff;
+}/*# sourceMappingURL=Testimonials.css.map */
